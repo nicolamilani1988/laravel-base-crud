@@ -1,5 +1,7 @@
 <div class="logo-container">
-    <img src="{{asset ('/storage/assets/images/logo.svg')}}" alt="">
+    <a href="{{route('home')}}">
+        <img src="{{asset ('/storage/assets/images/logo.svg')}}" alt="">
+    </a>
 </div>
 <div>
     <h1>

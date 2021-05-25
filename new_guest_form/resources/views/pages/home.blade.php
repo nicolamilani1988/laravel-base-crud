@@ -9,7 +9,15 @@
 @endsection
 
 @section('content')
-    <ul>
-        Ciao
-    </ul>
+    <div id="homepage">
+        <ul>
+            @foreach ($ospiti as $ospite)
+                <li>
+                    <a href="">
+                        [{{$ospite->id}}] - {{$ospite -> name}} {{$ospite->lastname}}
+                    </a>
+                </li>
+            @endforeach
+        </ul>
+    </div>
 @endsection
