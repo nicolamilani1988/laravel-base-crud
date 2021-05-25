@@ -13,7 +13,7 @@
         <ul>
             @foreach ($ospiti as $ospite)
                 <li>
-                    <a href="">
+                    <a href="{{route('guest',$ospite -> id)}}">
                         [{{$ospite->id}}] - {{$ospite -> name}} {{$ospite->lastname}}
                     </a>
                 </li>

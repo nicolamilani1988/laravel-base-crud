@@ -35,11 +35,6 @@ footer .container {
   justify-content: center;
 }
 
-#homepage {
-  padding: 30px 0;
-  color: #0C3B7C;
-}
-
 #homepage ul {
   display: flex;
   flex-wrap: wrap;
@@ -73,5 +68,10 @@ a {
   max-width: 1140px;
   margin: auto;
   display: flex;
+}
+
+main .container {
+  padding: 30px 0;
+  color: #0C3B7C;
 }
 
