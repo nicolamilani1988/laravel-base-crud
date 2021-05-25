@@ -1,0 +1,27 @@
+#guest-creation{
+    margin: auto;
+    .data-input{
+        width: 50vw;
+        display: flex;
+        justify-content: space-between;
+        margin: 10px 0;
+        label{
+            width: 30%;         
+        }
+        input{
+            flex-grow: 1;
+        }    
+    }
+    .submit-button{
+        text-align: center;
+        button{
+            margin-top: 10px;
+            font-family: 'Nunito', sans-serif;
+            padding: 10px;
+            color: white;
+            background-color: #0C3B7C;
+            border-radius: 20px;
+            border: 1px solid white;
+        }
+    }
+}

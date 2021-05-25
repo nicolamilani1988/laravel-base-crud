@@ -9,7 +9,7 @@
     </h1>
 </div>
 <div>
-    <a class="button" href="">
+    <a class="button" href="{{route('create')}}">
         Aggiungi Ospite
     </a>
 </div>

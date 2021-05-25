@@ -45,6 +45,39 @@ footer .container {
   margin: 10px 0;
 }
 
+#guest-creation {
+  margin: auto;
+}
+
+#guest-creation .data-input {
+  width: 50vw;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+#guest-creation .data-input label {
+  width: 30%;
+}
+
+#guest-creation .data-input input {
+  flex-grow: 1;
+}
+
+#guest-creation .submit-button {
+  text-align: center;
+}
+
+#guest-creation .submit-button button {
+  margin-top: 10px;
+  font-family: "Nunito", sans-serif;
+  padding: 10px;
+  color: white;
+  background-color: #0C3B7C;
+  border-radius: 20px;
+  border: 1px solid white;
+}
+
 * {
   margin: 0;
   padding: 0;

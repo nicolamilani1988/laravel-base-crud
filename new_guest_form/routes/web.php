@@ -22,3 +22,8 @@ Route::get('/','TestController@home')
 
 Route::get('/guest/{id}', 'TestController@guest')
 -> name ('guest');
+
+Route::get('/create/guest', 'TestController@create')
+-> name ('create');
+Route::post('/store/guest', 'TestController@store')
+    -> name('store');
